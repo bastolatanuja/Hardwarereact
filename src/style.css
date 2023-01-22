@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;300;400;500;600;700;800;900&display=swap');
+/* navbar css */
+.NBar {
+    position:sticky;
+    top: 0;
+    display: flex;
+    align-items: center;   
+    justify-content:space-between;
+    box-shadow: 2px 5px 8px 5px rgba(136, 136, 136, 0.533);
+    background-color: rgba(205, 205, 39);
+    /* backdrop-filter: blur(8px); */
+    z-index: 9999;
+    width: 100%;
+}
+.NBar .UL{
+    list-style: none;
+    display: flex;
+}
+
+.NBar .UL li{
+    margin-right:10px;
+    
+}
+
+.NBar .Image{
+    width: 20%;
+    
+}
+/* footer css */
+.Foot{
+    background-image: url('./assets/footerBG.png') ;
+    background-size: cover;
+    bottom: 0%;
+    width: 100%;
+    height: 290px;
+    object-fit: fill;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    background-color: aqua;
+}
+.footer_ul{
+  font-size: larger;
+  font-weight: bold;
+  margin-left: 30px;
+  margin-top: 50px;
+
+}
+.link_text{
+  color: #212529;
+  text-decoration: underline;
+}
+.link_text:hover{
+  color: black;
+}
+.footer-icons{
+  width: 200px;
+    margin-left: 250px;
+    margin-top: -100px;
+    
+}
+.footer-icons-item{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: xx-large;
+  margin-bottom: 20px;
+}
+.footer-icons-heading{
+  font-family: "Raleway", sans-serif;
+  font-size: larger;
+}
+
+/* footer css end */
+/* .slider{
+    max-height: 200px;
+    width:100%;
+    background-color: brown;
+} */
+
+.slick-prev {
+    left: 3% !important;
+    z-index: 1;
+  
+   
+  }
+  .slick-next {
+    right: 3% !important;
+    z-index: 1;
+    
+  }
+  .slick-next:before{
+    color:black !important ;
+  }
+
+  .slick-prev:before{
+    color:black !important ;
+  } 
+
+  .slider_image{
+    width: 100vw;
+    max-height: 400px;
+  }
+
+  .heading{
+    font-family: "Raleway", sans-serif;
+    font-weight: bold;
+  }
+  .category-body{
+    margin-bottom: 20px;
+    margin-top: 20px;
+  }
+
+  .category-container{
+    display: flex;
+    justify-content: space-between;
+   
+  }
+
+  .Category-Image{
+    height: 150px;
+    width: 150px;
+  }
+
+  .Feature-slider{
+    width: 400px;
+    height: 350px;
+  }
