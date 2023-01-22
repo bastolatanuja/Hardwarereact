@@ -22,15 +22,27 @@ class Feature extends Component{
                 <Slider {...settings}>
           <div >
           <img className='Feature-slider'  src={require('../assets/siddhartha.png')} alt="react logo" />
+          <div className='product-title'>
+            <h3>Siddhartha Cement</h3>
+          </div>
           </div>
           <div>
           <img className='Feature-slider'  src={require('../assets/new.jpg')} alt="react logo" />
+          <div className='product-title'>
+            <h3>1 number Brick</h3>
+          </div>
           </div>
           <div>
           <img className='Feature-slider'  src={require('../assets/siddhartha.png')} alt="react logo" />
+          <div className='product-title'>
+            <h3>Jagadamba Cement</h3>
+          </div>
           </div>
           <div>
           <img className='Feature-slider'  src={require('../assets/new.jpg')} alt="react logo" />
+          <div className='product-title'>
+            <h3>2 number brick Cement</h3>
+          </div>
           </div>
         
         </Slider>

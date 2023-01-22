@@ -9,6 +9,7 @@ import Register from './components/Register';
 
 
 import Homepage from './components/Homepage';
+import Product_Collection from './components/Product_Collection';
 
 function App() {
   return (
@@ -23,6 +24,7 @@ function App() {
       <Route path="/" element={<Homepage />}/>
         <Route path="login" element={<LogIn />}/>
         <Route path="signup" element={<Register />}/>
+        <Route path="category" element={<Product_Collection />}/>
       </Routes>
     </BrowserRouter>
       

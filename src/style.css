@@ -128,3 +128,102 @@
     width: 400px;
     height: 350px;
   }
+
+  .product-title{
+    text-align: center;
+  }
+
+  .footer-logo{
+    width: 250px;
+    height: 150px;
+
+    position: absolute;
+    right: 270px;
+    top: 1270px;
+  }
+  .banner-wrapper{
+    height: 250px;
+    width: 100%;
+    background-color: azure;
+    padding: 20px;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .banner-item{
+    padding: 30px;
+    margin-left: 80px;
+    margin-right: 120px;
+
+    font-family: Raleway;
+    font-size: xx-large;
+  }
+  .filtersort{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 30px;
+
+    margin-right: 150px;
+    font-family: Raleway;
+  }
+  .box-title{
+    font-size: small;
+  }
+  .select-filter{
+    width: 200px;
+  }
+
+  .collage-image{
+    height: 200px;
+    width: 200px;
+  }
+  .collage-item-details-price{
+    font-weight: 500;
+  }
+  .collage-item-details{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .collage-item{
+    width: 200px;
+    height: 300px;
+  }
+  .collage-itemm-details-info{
+    display: flex;
+    flex-direction: column;
+    
+  }
+  .tag-item{
+    border: 1px solid black;
+    margin: 3px;
+    width: fit-content;
+    padding: 5px;
+    border-radius: 10px;
+  }
+
+  .tag-sale{
+    color: white;
+    background-color: rgb(243, 46, 7);
+  }
+  .tag-sold{
+    background-color: gray;
+  }
+
+  .collage-body{
+    display: flex;
+    flex-wrap: wrap;
+    gap:140px;
+    width: 1250px;
+    margin-left: 150px;
+    margin-right: 150px;
+  }
+.collage-info-top{
+  margin-left: 150px;
+  font-size: small;
+  font-family: Raleway;
+}
+   

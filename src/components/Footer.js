@@ -21,6 +21,8 @@ class Footer extends Component{
                         </div>
                         <div className='footer-icons-heading'>Follow our Socials</div>
                     </div>
+                    <a href='/'><img className='footer-logo'  src={require('../assets/HardwareLogo.png')} alt="react logo" /></a>
+                
                 </footer>
           
         )
