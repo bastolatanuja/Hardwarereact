@@ -137,9 +137,10 @@
     width: 250px;
     height: 150px;
 
-    position: absolute;
-    right: 270px;
-    top: 1270px;
+    position: relative;
+    right: -190px;
+    /* top: 1270px; */
+    bottom : 25px;
   }
   .banner-wrapper{
     height: 250px;
@@ -226,4 +227,4 @@
   font-size: small;
   font-family: Raleway;
 }
-   
+  /* image gallery css */

@@ -10,19 +10,20 @@ class Register extends Component{
       
         return(
             <div className='login_body'>
-
-                <MainContainer>
-                    <WelcomeText>Join Us</WelcomeText>
-                    <InputContainer>
-                        <Input type="text" placeholder="first name" />
-                        <Input className="Register_input" type="text" placeholder="lastname" />
-                        <Input className="Register_input" type="text" placeholder="Email" />
-                        <Input className="Register_input" type="password" placeholder="Password" />
-                    </InputContainer>
-                    <ButtonContainer>
-                      <Button content={"sign up"}></Button>
-                    </ButtonContainer>
-                </MainContainer>
+              <form className='register_form'>  
+                <div className='main_container'>
+                    <h2 className='welcome_text'>Join Us</h2>
+                    <div className='input_container'>
+                        <input type="text" className="input_input Register_input" placeholder="first name" />
+                        <input className="input_input Register_input" type="text" placeholder="lastname" />
+                        <input className="input_input Register_input" type="text" placeholder="Email" />
+                        <input className="input_input Register_input" type="password" placeholder="Password" />
+                    </div>
+                    <div className='button_container'>
+                      <button type='submit' className='button_button' >Sign Up</button>
+                    </div>
+                </div>
+              </form>
             </div>
         )
     }

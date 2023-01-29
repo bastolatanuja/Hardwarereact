@@ -1,0 +1,30 @@
+.flex {
+  display: flex;
+  
+  justify-content: center;
+  gap: 20px;
+}
+.flex-col{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.img {
+  width: 500px;
+  height: 430px;
+}
+
+.mini-img {
+  width: 70px;
+  height: 100px;
+  cursor:pointer;
+}
+
+.mini-img:hover {
+  transform: scale(1.12);
+  transition: all .75s ease-in-out;
+}
+.gallery_wrapper{
+  display: flex;
+  gap: 20px;
+}
